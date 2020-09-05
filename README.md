@@ -1,2 +1,2 @@
 # Luminous
-Next gen Minecraft server software 
+Done Now Not Later
