@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
 </head>
-<body onload="timeout()">
+<body>
 
   <span class="menu-trigger">
     <i class="menu-trigger-bar top"></i>
@@ -33,7 +33,7 @@
   </div> 
 </div> -->
 
-<div id="main" style="display:none;">
+<div id="main">
   <div class="wavebox">
     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -80,16 +80,4 @@
 </body>
 </html>
 
-<script>
-  var timeout;
-
-  function timeout() {
-    timeout = setTimeout(showPage, 1000);
-  }
-
-  function showPage() {
-    document.getElementById("spinner-box").style.display = "none";
-    document.getElementById("main").style.display = "block";
-  }
-</script>
 
